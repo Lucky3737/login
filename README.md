@@ -1,18 +1,18 @@
 # Authentication
 
-Given an `app.js` file and a database file `userData.db` consisting of a  table `user`.
+Given an `app.js` file and a database file `userData.db` consisting of a table `user`.
 
 Write APIs to perform operations on the table `user` containing the following columns,
 
 **User Table**
 
-| Column   | Type    |
-| -------- | ------- |
+| Column   | Type |
+| -------- | ---- |
 | username | TEXT |
-| name     | TEXT    |
-| password | TEXT    |
-| gender   | TEXT    |
-|location|TEXT|
+| name     | TEXT |
+| password | TEXT |
+| gender   | TEXT |
+| location | TEXT |
 
 ### API 1
 
@@ -71,14 +71,14 @@ Write APIs to perform operations on the table `user` containing the following co
     Successful registration of the registrant
 
   - **Response**
-      - **Status code**
-        ```
-        200
-        ```
-      - **Status text**
-       ```
-       User created successfully
-       ```
+    - **Status code**
+      ```
+      200
+      ```
+    - **Status text**
+    ```
+    User created successfully
+    ```
 
 ### API 2
 
@@ -87,6 +87,7 @@ Write APIs to perform operations on the table `user` containing the following co
 #### Method: `POST`
 
 **Request**
+
 ```
 {
   "username": "adam_richard",
@@ -205,7 +206,6 @@ Write APIs to perform operations on the table `user` containing the following co
       ```
       Password updated
       ```
-
 
 <br/>
 
